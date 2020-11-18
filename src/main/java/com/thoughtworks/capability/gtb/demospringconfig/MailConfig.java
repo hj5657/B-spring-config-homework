@@ -12,7 +12,7 @@ public class MailConfig {
     private int port;
     private String from;
     private List<String> defaultRecipients;
-    private Map<String,String> additionalHeaders;
+    private Map<String, String> additionalHeaders;
     private Credentials credentials;
 
     public List<String> getDefaultRecipients() {
@@ -39,7 +39,7 @@ public class MailConfig {
         this.credentials = credentials;
     }
 
-    public static class Credentials{
+    public static class Credentials {
         private String username;
         private String password;
         private String authMethod;
